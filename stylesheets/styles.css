@@ -1,17 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 #header{
     text-align: center;
+    background-color: #d3d3d3
 }
 
 #title{
     font-size: 3em;
 }
 
+#img-div{
+    display: block;
+}
+
+#image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 #img-caption{
-    
+    color: grey;
+    font-size: 1.1em;
+    margin: 0 auto;
 }
 #quote {
     color: grey;
@@ -31,8 +47,38 @@
     flex-direction: column;
     text-align: left;
     line-height: 2em;
+    list-style-type: square;
 }
 
-/* #tribute-info li {
-    border-bottom: grey 1px solid;
-} */
+#footer {
+margin-bottom: 10px;
+}
+
+#footer p {
+    font-size: 1.2em;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+@media screen and (min-width:600px) {
+    #img-caption {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:900px){
+    #main {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    #image {
+        width: 40em;
+    }
+}
