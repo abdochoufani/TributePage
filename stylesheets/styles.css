@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    text-align: center;
+}
+
+#title{
+    font-size: 3em;
+}
+
+#img-caption{
+    
+}
+#quote {
+    color: grey;
+    font-weight: 700;
+}
+
+#tribute-info {
+    font-size: 1.1em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+#tribute-info ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 2em;
+}
+
+/* #tribute-info li {
+    border-bottom: grey 1px solid;
+} */
